@@ -14,10 +14,10 @@ endif
 if SHIELD_SOFLE_LEFT || SHIELD_SOFLE_RIGHT || SHIELD_SOFLE_LEFT_PERIPHERAL || SHIELD_SOFLE_DONGLE_XIAO || SHIELD_SOFLE_DONGLE_PRO_MICRO
 
 config ZMK_SPLIT
-    default y
+    default n
 
 config ZMK_SPLIT_BLE
-    default y
+    default n
 
 if ZMK_DISPLAY
 
